@@ -15,6 +15,10 @@
     </properties>
     <dependencies>
         <dependency>
+            <groupId>org.example</groupId>
+            <artifactId>AutoTest</artifactId>
+        </dependency>
+        <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
             <version>7.9.0</version>
@@ -61,6 +65,5 @@
                 </configuration>
             </plugin>
         </plugins>
-
     </build>
 </project>
