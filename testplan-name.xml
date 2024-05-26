@@ -1,6 +1,6 @@
 <suite name="todo-mvc">
     <test name="chrome">
-        <parameter name="env" value="staging"/>
+<!--        <parameter name="env" value="staging"/>-->
         <classes>
             <class name="org.example.test.LoginTest"/>
         </classes>
