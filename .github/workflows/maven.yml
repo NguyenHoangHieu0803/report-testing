@@ -18,9 +18,7 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Test
-      run: mvn clean test
-    - name: Report
-      run: allure serve
-      if: success() || failure()
+      run: mvn test
+
 
 
