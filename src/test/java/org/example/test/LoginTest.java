@@ -54,7 +54,7 @@ public class LoginTest {
     void logInSuccessfullyProblemUser() {
 
         UserData userData = new UserData();
-        userData.setUserName("problem_user");
+//        userData.setUserName("problem_user");
         userData.setpassword("secret_sauce");
 
         driver.findElement(userName).sendKeys(userData.getUserName());
